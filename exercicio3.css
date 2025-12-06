@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(96, 224, 154, 0.863);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+  background-color: rgb(60, 194, 149);
+  color: rgb(0, 2, 2);
+  text-align: left;
+  padding: 20px;
+}
+header a {
+  background-color: rgba(46, 230, 168, 0.685);
+  text-decoration: solid;
+  color: rgb(103, 117, 129);
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+header a:hover{
+   background-color: rgba(255, 255, 255, 0.13);
+}
+main {
+    padding: 16px;
+}
+ 
+section {
+    background-color: #87e0c2;
+    padding: 16px;
+    border-radius:8px;
+    margin: 10px;
+}
+ 
+section h2 {
+    border-bottom:2px solid rgb(2, 161, 134);
+}
+h1{
+  margin: 0 0 10px 0;
+
+}
+input, textarea, select{
+  width: 99%;
+  padding: 8px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+form button {
+  background-color: rgba(255, 255, 255, 0.13);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+former button:hover{
+  background-color: rgba(255, 255, 255, 0.13);
+}
+/* para refenciar id é com #  */
+#exemploid  {
+  background-color: rgb(48, 204, 152);
+}
+/* para refenciar é com . */
+.exemplocass {
+    background-color: rgb(115, 131, 199);
+}
